@@ -34,4 +34,32 @@ El PRY me permite definir funciones y variables en tiempo de ejecución, mientra
 27. Diferencias entre ejecutar el fichero con el irb y con PRY
 El PRY me permite definir funciones y variables en tiempo de ejecución, mientras que con el irb no puedo hacer eso.
 
+34. Diferencias entre "\t\n" y '\t\n'
+Las comillas dobles interpretan los escapes, las comillas simples lo expresan de forma literal.
 
+35. %q
+Actua como un string entre comillas simples.
+
+36. %Q
+Actua como un string entre comillas dobles.34. Diferencias entre "\t\n" y '\t\n'
+Las comillas dobles interpretan los escapes, las comillas simples lo expresan de forma literal.
+
+35. %q
+Actua como un string entre comillas simples.
+
+36. %Q
+Actua como un string entre comillas dobles.34. Diferencias entre "\t\n" y '\t\n'
+Las comillas dobles interpretan los escapes, las comillas simples lo expresan de forma literal.
+
+35. %q
+Actua como un string entre comillas simples.
+
+36. %Q
+Actua como un string entre comillas dobles.34. Diferencias entre "\t\n" y '\t\n'
+Las comillas dobles interpretan los escapes, las comillas simples lo expresan de forma literal.
+
+35. %q
+Actua como un string entre comillas simples.
+
+36. %Q
+Actua como un string entre comillas dobles.
