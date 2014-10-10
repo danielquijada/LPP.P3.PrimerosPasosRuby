@@ -1,0 +1,6 @@
+16. Version de ruby disponible
+ruby 1.8.7 (2011-06-30 patchlevel 352) [i686-linux]
+
+21. Diferencias entre ejecutar un fichero y el interprete interactivo
+Al acabar de ejecutar el fichero, el intérprete cierra. Además, no permite ninguna interacción entre el usuario y la consola
+
