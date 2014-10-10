@@ -4,3 +4,29 @@ ruby 1.8.7 (2011-06-30 patchlevel 352) [i686-linux]
 21. Diferencias entre ejecutar un fichero y el interprete interactivo
 Al acabar de ejecutar el fichero, el intérprete cierra. Además, no permite ninguna interacción entre el usuario y la consola
 
+26. Resultados de ejecutar operaciones en pry
+pry> puts x
+10
+=> nil
+
+pry> def hello...
+=> nil
+
+pry> hello
+Hello World
+=> nil
+
+pry> byebye
+bye bye World!!
+=> nil
+
+pry> x = "changed"
+=> "changed"
+
+pry> exit
+program resumes here, value of x is: changed.
+
+27. Diferencias entre ejecutar el fichero con el irb y con PRY
+El PRY me permite definir funciones y variables en tiempo de ejecución, mientras que con el irb no puedo hacer eso.
+
+

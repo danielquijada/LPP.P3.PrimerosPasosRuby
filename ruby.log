@@ -1,0 +1,17 @@
+[1] pry(main)> [H[2J[1] pry(main)> puts x
+[2] pry(main)> exit
+[0G
+[1mFrom:[0m byebyeWorld.rb @ line 11 :
+
+     [1;34m6[0m: 
+     [1;34m7[0m: [0;34m#set x to 10[0m
+     [1;34m8[0m: x = [1;34m10[0m;
+     [1;34m9[0m: 
+    [1;34m10[0m: [0;34m#start a PEPL session[0m
+ => [1;34m11[0m: binding.pry
+    [1;34m12[0m: 
+    [1;34m13[0m: [0;34m#program resumes here, after pry[0m
+    [1;34m14[0m: puts [32m[1;32m"[0m[32mprogram resumes here. Value of x is: #{x}[0m[32m.[1;32m"[0m[32m[0m
+
+10
+=> [1;36mnil[0m[0m
